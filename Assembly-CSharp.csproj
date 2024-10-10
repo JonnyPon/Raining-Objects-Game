@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Low Poly Fruits\resources\fruits_tester.cs" />
+    <Compile Include="Assets\Scripts\ScriptPlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
