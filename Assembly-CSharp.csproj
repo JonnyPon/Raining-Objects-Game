@@ -64,7 +64,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.42f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ScriptBoundaryHandler.cs" />
     <Compile Include="Assets\Low Poly Fruits\resources\fruits_tester.cs" />
+    <Compile Include="Assets\Scripts\ScriptObjectHandler.cs" />
     <Compile Include="Assets\Scripts\ScriptPlayerController.cs" />
   </ItemGroup>
   <ItemGroup>
