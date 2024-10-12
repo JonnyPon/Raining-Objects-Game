@@ -16,4 +16,19 @@ public class ScriptObjectHandler : MonoBehaviour
     {
         rb.angularVelocity = Random.insideUnitSphere * tumbleSpeed; 
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("Boundary"))
+        {
+            return;
+        }
+        else if(other.CompareTag("Player")){
+            Destroy(gameObject);
+            return;
+        }
+
+        Destroy(other.gameObject);
+        Destroy(gameObject);
+    }
 }
