@@ -5,11 +5,25 @@ using UnityEngine;
 public class ScriptObjectHandler : MonoBehaviour
 {
     public float tumbleSpeed;
+
+    public int scoreValue;
+    private ScriptGameController gameControllerScript;
+
     private Rigidbody rb;
 
    void Awake()
    {
         rb = GetComponent<Rigidbody>();
+
+        GameObject gameController = GameObject.FindWithTag("GameController");
+
+        if(gameController != null)
+        {
+            gameControllerScript = gameController.GetComponent<ScriptGameController>();
+        }
+        else{
+            Debug.Log("Cannot find 'GameController' script");
+        }
    }
 
     void Start()
@@ -25,9 +39,15 @@ public class ScriptObjectHandler : MonoBehaviour
         }
         else if(other.CompareTag("Player")){
             Destroy(gameObject);
+            gameControllerScript.AddScore(scoreValue);
             return;
         }
-
+        else if(other.CompareTag("DeathZone"))
+        {
+            gameControllerScript.RemoveLive();
+            return;
+        }
+        
         Destroy(other.gameObject);
         Destroy(gameObject);
     }

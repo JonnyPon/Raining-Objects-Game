@@ -74,6 +74,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumbleSpeed: 5
+  scoreValue: 10
 --- !u!1001 &3400364171554200316
 PrefabInstance:
   m_ObjectHideFlags: 0
