@@ -5,6 +5,8 @@ using UnityEngine;
 public class ScriptObjectHandler : MonoBehaviour
 {
     public float tumbleSpeed;
+    public GameObject deathExplosion;
+    public GameObject caughtExplosion;
 
     public int scoreValue;
     private ScriptGameController gameControllerScript;
@@ -38,12 +40,14 @@ public class ScriptObjectHandler : MonoBehaviour
             return;
         }
         else if(other.CompareTag("Player")){
+            Instantiate(caughtExplosion, transform.position, transform.rotation);
             Destroy(gameObject);
             gameControllerScript.AddScore(scoreValue);
             return;
         }
         else if(other.CompareTag("DeathZone"))
         {
+            Instantiate(deathExplosion, transform.position, transform.rotation);
             gameControllerScript.RemoveLive();
             return;
         }
