@@ -1376,12 +1376,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe8b216ffb0c5174aacaca004f04b4af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rain: {fileID: 8459141808206397043, guid: 9d1f49c4171d571419259e77f1059b7e, type: 3}
+  fallingObjects:
+  - {fileID: 8459141808206397043, guid: 9d1f49c4171d571419259e77f1059b7e, type: 3}
+  - {fileID: 5435435913085490400, guid: e6fa4814f6080ad4b973c7ef8fba0740, type: 3}
+  - {fileID: 6539203144928821868, guid: b869935181af8674a94b354799afb43d, type: 3}
+  - {fileID: 8344760430320722094, guid: e77e4dd0d03725b45b2cd9862726fa2d, type: 3}
   spawnValues: {x: 1.7, y: 3, z: 0}
-  rainCount: 10
+  objectCount: 10
   spawnWait: 1
   startWait: 1
-  rainWait: 0
+  waveWait: 0
   scoreText: {fileID: 980593793}
   lives: 3
   livesText: {fileID: 166057315}

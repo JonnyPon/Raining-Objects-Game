@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Boundary
   - DeathZone
+  - FxTemporaire
+  - Object
   layers:
   - Default
   - TransparentFX
