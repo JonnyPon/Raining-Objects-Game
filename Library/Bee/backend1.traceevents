@@ -1,363 +1,489 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1729924599462415, "dur":2753, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599465181, "dur":175, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599465403, "dur":384, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599465823, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":0, "ts":1729924599465963, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/level0.resS" }}
-,{ "pid":12345, "tid":0, "ts":1729924599466131, "dur":164, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":0, "ts":1729924599466428, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":0, "ts":1729924599466767, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599466925, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467119, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467501, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467580, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467636, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467696, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467805, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467875, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467935, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599467987, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1729924599465813, "dur":5144, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599470959, "dur":286027, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599756987, "dur":53, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599757040, "dur":166, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599757387, "dur":2239, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1729924599466922, "dur":4107, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599471033, "dur":986, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599472019, "dur":4398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599476418, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1729924599476496, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599477962, "dur":2995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":1, "ts":1729924599481008, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1729924599481632, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1729924599483513, "dur":81, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":1, "ts":1729924599483511, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1729924599483678, "dur":85, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599485327, "dur":100, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599484024, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1729924599485582, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":1, "ts":1729924599487082, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1729924599487208, "dur":3257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1729924599490520, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1729924599490573, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599490657, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":1, "ts":1729924599493499, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer.exe" }}
-,{ "pid":12345, "tid":1, "ts":1729924599495493, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599499072, "dur":11071, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599510469, "dur":4750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599515329, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599520981, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599515453, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599521162, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599521271, "dur":4804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599526225, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599526443, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599529714, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599531255, "dur":3162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599534467, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599534599, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599537054, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599543534, "dur":68, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599537186, "dur":6434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599543698, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599548075, "dur":563, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599543980, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599548710, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599548812, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599553950, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599554054, "dur":448, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599554507, "dur":10346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599564917, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599612833, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1729924599565004, "dur":47911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1729924599612975, "dur":143907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599467477, "dur":3590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599471068, "dur":965, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599472034, "dur":4377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599476459, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1729924599476418, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1729924599476527, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599486300, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":2, "ts":1729924599489683, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1729924599489906, "dur":2877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1729924599492879, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599492877, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599493262, "dur":2319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599495759, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599499263, "dur":10888, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599510222, "dur":3562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599513930, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599514054, "dur":3853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599517962, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599518215, "dur":2201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599520470, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599520594, "dur":5078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599525764, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599528633, "dur":442, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599525855, "dur":3324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599529246, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599529372, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/CFXRDemo.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599531049, "dur":2951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599534079, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599534214, "dur":2160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599536433, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599536638, "dur":6212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599543025, "dur":4544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599547623, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599547742, "dur":522, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599548269, "dur":13395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599561735, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599562022, "dur":3247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599565343, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599565438, "dur":1807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599567423, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599567582, "dur":1689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599569375, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599571721, "dur":2042, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599573800, "dur":6115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599580773, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599580895, "dur":63, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599580962, "dur":7041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599588072, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599588260, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1729924599592444, "dur":13256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1729924599607314, "dur":3380, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1729924599605837, "dur":4878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/level0.resS" }}
-,{ "pid":12345, "tid":2, "ts":1729924599610819, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1729924599610917, "dur":4324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":2, "ts":1729924599615322, "dur":141605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599466905, "dur":4104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599471014, "dur":974, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599471988, "dur":4432, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599476441, "dur":84, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
-,{ "pid":12345, "tid":3, "ts":1729924599476421, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1729924599476527, "dur":241, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599497550, "dur":1667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1729924599499270, "dur":10876, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599510272, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599514764, "dur":414, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599515193, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599515260, "dur":7234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599522544, "dur":1162, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599527323, "dur":1692, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599523744, "dur":5409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599529286, "dur":1505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/KinoBloom.Runtime.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599530898, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599532284, "dur":984, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599533312, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599535881, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599536044, "dur":3927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599540096, "dur":223, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599540382, "dur":3757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599544189, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599544626, "dur":256, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599544886, "dur":3802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599548752, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599548967, "dur":6651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599555684, "dur":1285, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599557025, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599560013, "dur":1084, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599561177, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599563860, "dur":786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599564684, "dur":2923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599567713, "dur":1338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599569119, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599569230, "dur":4940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599574236, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599574333, "dur":3163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599577550, "dur":174, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599577776, "dur":2921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599580768, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599581405, "dur":5901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599587385, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1729924599587492, "dur":12776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1729924599600715, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1729924599602821, "dur":3255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1729924599606149, "dur":3146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/level0" }}
-,{ "pid":12345, "tid":3, "ts":1729924599609538, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":3, "ts":1729924599615088, "dur":141796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599466470, "dur":4516, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599470991, "dur":1237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599472229, "dur":4186, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599476419, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1729924599476498, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599477903, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":4, "ts":1729924599481549, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":4, "ts":1729924599483786, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1729924599485222, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1729924599485387, "dur":1659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1729924599487099, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1729924599487519, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1729924599489125, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":4, "ts":1729924599491037, "dur":1486, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599492921, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1729924599494971, "dur":19698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":4, "ts":1729924599514730, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599514841, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599517353, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599517437, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599520282, "dur":278, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599526671, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599520623, "dur":6199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599527098, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599527164, "dur":1837, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599544602, "dur":168, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599529006, "dur":15796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599545084, "dur":812, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599553939, "dur":596, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599545955, "dur":8595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599554608, "dur":1015, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599555696, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599561330, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599561588, "dur":4993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599566689, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599567981, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599568187, "dur":1855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599570145, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599574440, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599570351, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599574627, "dur":149, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599574804, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599578295, "dur":138, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599584909, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599578459, "dur":6545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599585103, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599591250, "dur":587, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599585277, "dur":6583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1729924599607108, "dur":3682, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1729924599594736, "dur":16099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":4, "ts":1729924599610922, "dur":145994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599466708, "dur":4290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599471003, "dur":1113, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599472117, "dur":4296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599476453, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1729924599476418, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1729924599476520, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599497026, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1729924599498739, "dur":15516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599514318, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599517590, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599514438, "dur":3263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599517758, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599517873, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599521807, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599532750, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599522193, "dur":10656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599532930, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599533305, "dur":3912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599537266, "dur":1983, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599539294, "dur":3822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599543216, "dur":4358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599547726, "dur":558, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599548288, "dur":5456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599553796, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599554002, "dur":217, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599554222, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599558282, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599576908, "dur":80, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599558384, "dur":18624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599577150, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599577365, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599580693, "dur":160, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599590155, "dur":76, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1729924599581398, "dur":8888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1729924599590461, "dur":16187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/sharedassets0.resource" }}
-,{ "pid":12345, "tid":5, "ts":1729924599606778, "dur":5105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1729924599612052, "dur":144833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599467039, "dur":3996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599471042, "dur":944, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599471987, "dur":271, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599472258, "dur":4143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599476427, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599476534, "dur":218, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599496282, "dur":15058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/app.info" }}
-,{ "pid":12345, "tid":6, "ts":1729924599511353, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599511479, "dur":4816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599516350, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599516468, "dur":3299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599526689, "dur":2291, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599519949, "dur":9241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599529246, "dur":456, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599529827, "dur":9673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599539572, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599539668, "dur":8084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599547873, "dur":421, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599548296, "dur":3229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599555408, "dur":215, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599551641, "dur":4017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599555714, "dur":1254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599557033, "dur":4738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599561864, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599561998, "dur":7575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599569679, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599569778, "dur":5302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599575148, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599575290, "dur":3462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599578809, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599579032, "dur":6635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599585741, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1729924599585986, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599588282, "dur":68826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":6, "ts":1729924599657162, "dur":99746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1729924599466399, "dur":4577, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1729924599470981, "dur":5412, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1729924599476433, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1729924599476543, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1729924599476670, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1729924599476784, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":7, "ts":1729924599477128, "dur":151, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599477281, "dur":214, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599477497, "dur":304, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599477803, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599477912, "dur":110, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\CFXRDemo.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599478023, "dur":88, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\KinoBloom.Runtime.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599478112, "dur":387, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599478501, "dur":637, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599479141, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599479273, "dur":319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":7, "ts":1729924599476542, "dur":3185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1729924599480458, "dur":271239, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1729924599755153, "dur":147, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1729924599755152, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Raining-Objects-Game-Singleplayer_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1729924599755335, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/boot.config" }}
-,{ "pid":12345, "tid":8, "ts":1729924599467281, "dur":3771, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599471058, "dur":1009, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599472067, "dur":4361, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599476429, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1729924599476503, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599487104, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1729924599490090, "dur":2980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1729924599493140, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599493355, "dur":31207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599524657, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599528652, "dur":689, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599524980, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599529517, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599529595, "dur":1526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599531200, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599531277, "dur":3442, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599534768, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599541173, "dur":150, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599534850, "dur":6516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599541602, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599547899, "dur":428, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599541755, "dur":6589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599548441, "dur":3568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599552059, "dur":1292, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599555363, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599553388, "dur":2082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599555573, "dur":1397, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599557015, "dur":5992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599563065, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599563218, "dur":14756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599578074, "dur":7600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599585733, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599585982, "dur":10561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1729924599596735, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":8, "ts":1729924599605587, "dur":69, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599598170, "dur":7526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1729924599611366, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1729924599605811, "dur":5644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Raining-Objects-Game-Singleplayer_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1729924599611536, "dur":145373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1729924599763475, "dur":1330, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1730267992850210, "dur":110, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267992850428, "dur":4468, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267992854923, "dur":372, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267992855368, "dur":68, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1730267992855437, "dur":988, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267992856503, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":0, "ts":1730267992856776, "dur":142, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1730267992857024, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":0, "ts":1730267992857243, "dur":130, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":0, "ts":1730267992857896, "dur":56, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992858054, "dur":145, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992858211, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992858344, "dur":115, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992858521, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992858718, "dur":119, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992858891, "dur":167, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992859474, "dur":116, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992859645, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992859821, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992859927, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992860145, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992860337, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992860484, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992860619, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992860679, "dur":211, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992860907, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861041, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861263, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861367, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861534, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861693, "dur":102, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861808, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992861904, "dur":111, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992862026, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992862110, "dur":108, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992862279, "dur":170, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992862671, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992862885, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992863113, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992863196, "dur":120, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992863375, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992863531, "dur":283, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992863974, "dur":135, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992864123, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992864426, "dur":176, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992864752, "dur":173, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992864938, "dur":96, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992865125, "dur":162, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992865380, "dur":154, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992865545, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992865673, "dur":143, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866002, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866087, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866284, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866504, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866649, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866801, "dur":161, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992866975, "dur":55, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867127, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867345, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer.exe" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867445, "dur":136, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867636, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867709, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867804, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1730267992867907, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868082, "dur":139, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868229, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868326, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868458, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868849, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868922, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles _Build/Multiplayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":0, "ts":1730267992856482, "dur":12499, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267992868984, "dur":756840, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267993625826, "dur":306, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267993626133, "dur":261, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267993626410, "dur":56, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267993626817, "dur":5176, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1730267992857584, "dur":11449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992869040, "dur":1295, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992870336, "dur":642, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992870979, "dur":6261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992877281, "dur":549, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1730267992877254, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1730267992877836, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992913270, "dur":1990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1730267992915350, "dur":15647, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992931016, "dur":158, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992996459, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992931796, "dur":64771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730267992996816, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992997118, "dur":96, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267992997224, "dur":6678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730267993004038, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993004272, "dur":9173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730267993013642, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993013833, "dur":6491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730267993020449, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993020533, "dur":493, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993034066, "dur":106, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993021033, "dur":13190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730267993034486, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993040418, "dur":46217, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993034697, "dur":51993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1730267993086981, "dur":842, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993153660, "dur":1812, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1730267993087830, "dur":67826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1730267993155939, "dur":469886, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992857831, "dur":11272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992869112, "dur":1322, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992870435, "dur":6792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992877251, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992877347, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992886649, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992880244, "dur":6899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1730267992887152, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1730267992887219, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992888350, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1730267992891799, "dur":65, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1730267992891796, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1730267992891867, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992892332, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1730267992894658, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1730267992895036, "dur":4689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1730267992899821, "dur":99, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992899817, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992899924, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992900501, "dur":2751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992903346, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1730267992903344, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1730267992903425, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992903515, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer.exe" }}
+,{ "pid":12345, "tid":2, "ts":1730267992906546, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1730267992906620, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992907368, "dur":3245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1730267992910683, "dur":20224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992930932, "dur":117, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992931575, "dur":30899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992962625, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992972624, "dur":418, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992962868, "dur":10205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992973203, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992973594, "dur":3589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992977464, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992977694, "dur":3071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992980864, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992985499, "dur":121, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992981145, "dur":4514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992985854, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992986246, "dur":12928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267992999274, "dur":295, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267992999611, "dur":5109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267993004914, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267993005331, "dur":14744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267993020330, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267993037769, "dur":49344, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267993020574, "dur":66572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1730267993087693, "dur":185, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1730267993087887, "dur":113833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1730267993201819, "dur":423960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992857791, "dur":11274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992869084, "dur":1412, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992870498, "dur":6781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992877311, "dur":130, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1730267992877282, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1730267992877444, "dur":352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992911197, "dur":20544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1730267992931839, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992949039, "dur":117, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992932256, "dur":16944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267992949368, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992949524, "dur":10240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267992960010, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992960224, "dur":87, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992960370, "dur":8340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267992968847, "dur":549, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992969470, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267992969528, "dur":32806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267993002533, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993002843, "dur":193, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993003045, "dur":6803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267993009951, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993010396, "dur":6561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267993017106, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993022397, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993017236, "dur":5252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267993022841, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993040516, "dur":44963, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993023008, "dur":62597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1730267993086308, "dur":161, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993156852, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1730267993086477, "dur":70479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1730267993157114, "dur":468698, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730267992857492, "dur":11526, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730267992869024, "dur":8189, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730267992877255, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730267992877343, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730267992877526, "dur":244, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730267992877803, "dur":160, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1730267992878303, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992878499, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992878741, "dur":573, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992879319, "dur":262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992879584, "dur":240, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\CFXRDemo.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992879829, "dur":190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992880022, "dur":960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992880986, "dur":1669, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992882660, "dur":234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992882897, "dur":703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\kirsc\\Desktop\\Unity_Projects\\_2022.3\\Raining-Objects-Game\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1730267992877341, "dur":6600, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730267992884549, "dur":110, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1730267992885804, "dur":733071, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730267993623255, "dur":182, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730267993623253, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1730267993623478, "dur":2214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1730267992858405, "dur":12056, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992870462, "dur":6768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992877272, "dur":74, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1730267992877238, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1730267992878885, "dur":8305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1730267992887290, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1730267992887286, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1730267992887370, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992888465, "dur":3072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1730267992898724, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1730267992898781, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992898920, "dur":67479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1730267992966578, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992966790, "dur":56, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992998541, "dur":89, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267992966853, "dur":31938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/CFXRRuntime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730267992999954, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267993000365, "dur":703, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267993092347, "dur":374, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267993001126, "dur":91653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1730267993098630, "dur":169, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267993175076, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1730267993098808, "dur":76373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1730267993175351, "dur":450433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992858013, "dur":11127, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992869150, "dur":1665, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992870816, "dur":6459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992877286, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1730267992877399, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992877485, "dur":244, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992886660, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992882194, "dur":4972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1730267992887303, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1730267992887402, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992888352, "dur":2589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1730267992891000, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1730267992891054, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992930987, "dur":2551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1730267992933690, "dur":6309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267992940138, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992940288, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267992944242, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992944353, "dur":8167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267992952682, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992960264, "dur":70, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992952890, "dur":7477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267992960483, "dur":515, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992961068, "dur":5387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267992966614, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992966799, "dur":9078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267992976449, "dur":1008, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267992977493, "dur":33378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267993010977, "dur":194, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267993011209, "dur":8829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267993020311, "dur":2141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267993037143, "dur":45399, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267993022520, "dur":60062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1730267993082815, "dur":215, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267993130073, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1730267993083056, "dur":47453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1730267993130667, "dur":495104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992858040, "dur":11150, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992869216, "dur":1900, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992871117, "dur":6380, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992877509, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1730267992877870, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992931020, "dur":2510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1730267992933608, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992933697, "dur":14856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267992948783, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992949227, "dur":18347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267992967675, "dur":247, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992967975, "dur":5158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267992973201, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992973557, "dur":16428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267992990193, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993000365, "dur":702, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267992990548, "dur":10553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267993001237, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993001323, "dur":14518, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267993015972, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993016105, "dur":5908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267993022077, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993022175, "dur":8842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267993031124, "dur":410, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993039920, "dur":42404, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993031574, "dur":50798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1730267993082579, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993138486, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1730267993082953, "dur":55628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1730267993138777, "dur":486990, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992858114, "dur":11242, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992869366, "dur":1762, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992871129, "dur":6205, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992877369, "dur":117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1730267992877343, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1730267992877489, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992912144, "dur":19781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1730267992931987, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992937597, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992932408, "dur":5300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992937838, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992937981, "dur":14351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992952508, "dur":358, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992952898, "dur":7252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992960331, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992960438, "dur":8423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992969039, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992969219, "dur":6036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992975360, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992975704, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992977973, "dur":97, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992978093, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992980250, "dur":2556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992983180, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992983318, "dur":7331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992990762, "dur":255, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992991069, "dur":8247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267992999375, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267992999616, "dur":6409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267993006139, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267993006256, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267993011862, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267993011967, "dur":5427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267993017478, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267993017696, "dur":4497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267993022243, "dur":819, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267993023405, "dur":11413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267993034901, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267993038582, "dur":44027, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1730267993034991, "dur":47908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1730267993083361, "dur":43851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1730267993127333, "dur":10007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1730267993137471, "dur":488339, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992858237, "dur":11411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992869661, "dur":1816, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992871478, "dur":5815, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992877301, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1730267992877423, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992896989, "dur":1721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1730267992898759, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1730267992898813, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992899390, "dur":2076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1730267992901540, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992901719, "dur":7070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992908890, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992957105, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992931426, "dur":25818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992957353, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992957496, "dur":5975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992963630, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992963758, "dur":5833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/KinoBloom.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992969752, "dur":118, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992969914, "dur":7052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992977036, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992977151, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992980151, "dur":3053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992983293, "dur":870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267992984226, "dur":13353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267992997709, "dur":5359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267993003135, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267993003366, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267993007230, "dur":596, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267993007865, "dur":6606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267993014587, "dur":767, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267993042699, "dur":3816, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1730267993015542, "dur":31019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1730267993046784, "dur":25138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1730267993072033, "dur":119101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1730267993191211, "dur":434564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992858600, "dur":11890, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992870491, "dur":6870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992877367, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1730267992877449, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992910644, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1730267992913221, "dur":17743, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992930991, "dur":160, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992931723, "dur":19568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992951397, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992951622, "dur":11081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992962777, "dur":1575, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992964368, "dur":782, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992972704, "dur":418, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992965161, "dur":7976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992973202, "dur":266, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992973556, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992977263, "dur":2662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992980137, "dur":2622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992982829, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992987947, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992982964, "dur":5076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992988209, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992988994, "dur":9054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267992998152, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267992998295, "dur":5305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993003651, "dur":451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267993004140, "dur":5154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993009739, "dur":630, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267993010544, "dur":5038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993015678, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267993015963, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993020988, "dur":4775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993025862, "dur":3245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267993037446, "dur":6619, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267993030727, "dur":13386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993044226, "dur":51, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993044221, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993044283, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1730267993044361, "dur":198556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1730267993243017, "dur":382812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992858617, "dur":11900, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992870518, "dur":6995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992877525, "dur":357, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":11, "ts":1730267992877514, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1730267992877887, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992913675, "dur":19182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1730267992932952, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992939780, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992933303, "dur":6655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992940279, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992940535, "dur":8026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992948689, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992959319, "dur":59, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992949181, "dur":10248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992959660, "dur":166, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992959890, "dur":6622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992966634, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992966768, "dur":93, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992972928, "dur":146, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992966869, "dur":6256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992973203, "dur":268, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992973579, "dur":13185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992986929, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992987066, "dur":11317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267992998494, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267992998805, "dur":5842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267993004723, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267993004900, "dur":5711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267993010684, "dur":462, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267993011195, "dur":8854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267993020232, "dur":464, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267993020729, "dur":15693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267993036499, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267993040354, "dur":39665, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1730267993036897, "dur":43153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1730267993080404, "dur":43956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":11, "ts":1730267993124542, "dur":7667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1730267993132297, "dur":493517, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992858720, "dur":11960, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992870681, "dur":6588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992877273, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1730267992877433, "dur":334, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992895876, "dur":2165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1730267992898126, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1730267992898123, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles _Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1730267992898197, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992898337, "dur":68091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1730267992966578, "dur":200, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992966798, "dur":94, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992975560, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992966905, "dur":9453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/CFXRDemo.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730267992976633, "dur":895, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267992977563, "dur":44063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730267993021761, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267993034049, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267993022193, "dur":11970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730267993034327, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267993038854, "dur":48235, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267993034616, "dur":52618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1730267993131909, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1730267993087851, "dur":44157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"_Build/Multiplayer/Raining-Objects-Game-Multiplayer_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1730267993132173, "dur":493634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1730267993637223, "dur":3746, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

@@ -15,6 +15,9 @@ public class ScriptPlayerController : MonoBehaviour
     public float maxMoveSpeed;
     private Rigidbody rb;
 
+    // Distinguish between player 1 and player 2
+    public bool isPlayerOne = true;
+
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -22,7 +25,9 @@ public class ScriptPlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        // Check which player's controls to use
+        float moveHorizontal = isPlayerOne ? Input.GetAxis("Horizontal") : Input.GetAxis("Horizontal2");
+        // float moveHorizontal = Input.GetAxis("Horizontal"); // if Single Player
 
         Vector3 movement = new Vector3(moveHorizontal, 0f, 0f);
 

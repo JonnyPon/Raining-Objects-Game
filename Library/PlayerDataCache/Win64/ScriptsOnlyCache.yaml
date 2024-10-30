@@ -98,23 +98,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1966}
+      Script: {instanceID: 1968}
     - Class: 114
-      Script: {instanceID: 2204}
+      Script: {instanceID: 2206}
     - Class: 114
-      Script: {instanceID: 2836}
+      Script: {instanceID: 2838}
     - Class: 114
-      Script: {instanceID: 3920}
+      Script: {instanceID: 3922}
     - Class: 114
-      Script: {instanceID: 4000}
+      Script: {instanceID: 4002}
     - Class: 114
-      Script: {instanceID: 4106}
+      Script: {instanceID: 4108}
     - Class: 114
-      Script: {instanceID: 4358}
+      Script: {instanceID: 4360}
     - Class: 114
-      Script: {instanceID: 5068}
+      Script: {instanceID: 5070}
     - Class: 114
-      Script: {instanceID: 5624}
+      Script: {instanceID: 5626}
     - Class: 114
       Script: {instanceID: 5778}
     - Class: 114
@@ -150,6 +150,12 @@ ScriptsOnlyBuild:
     - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 81b82d221301f06b1c21d662775a17b3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fruits_tester
   - hash:
       serializedVersion: 2
       Hash: d41ab9b5ea92474f9c0a6937a0607ce1
@@ -230,7 +236,7 @@ ScriptsOnlyBuild:
     className: SimpleScript
   - hash:
       serializedVersion: 2
-      Hash: 1d48c79d01de47d7d60a2ae44328b79f
+      Hash: 39d113b2705f667ce5d25bcc00a54d71
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: ScriptPlayerController
@@ -902,12 +908,6 @@ ScriptsOnlyBuild:
     className: AspectRatioFitter
   - hash:
       serializedVersion: 2
-      Hash: 81b82d221301f06b1c21d662775a17b3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: fruits_tester
-  - hash:
-      serializedVersion: 2
       Hash: 9637dcdf3068a91dfe653e61bb82f13d
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -1269,4 +1269,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/RainingObject.unity
-  playerPath: C:/Unity_Projects/_2022.3/Raining-Objects-Game/_Build/Raining-Objects-Game-Singleplayer.exe
+  playerPath: C:/Users/kirsc/Desktop/Unity_Projects/_2022.3/Raining-Objects-Game/_Build/Multiplayer/Raining-Objects-Game-Multiplayer.exe

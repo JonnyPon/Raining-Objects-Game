@@ -3,7 +3,7 @@
 ## Description 
 **Raining Objects** is a 2D Unity two-player game where players control a movable basket at the bottom of the screen, working together to collect objects. The objective is to catch as many falling fruits and vegetables as possible while avoiding misses. The game offers a challenging, fast-paced experience with increasing difficulty and limited lives.
 
-![GUI_Raining_Objects](image-4.png)
+![GUI_Raining_Objects](www/GUI_Game_Over.png)
 
 > Enjoy the challenge, and try to beat your high score!
 
@@ -11,7 +11,7 @@
 
 ### Scope
 - **Playable Area**: 2D side-view perspective
-- **Player Object**: Two movable baskets at the bottom of the screen
+- **Player Object**: Two movable baskets at the bottom of the screens
 - **Falling Objects**: An infinite number of fruits and vegetables falls continuously from the top of the screen
 - **Lives and Game Over Condition**: The players starts with 3 lives and the game ends when all lives are lost
 - **Goal**: Catch as many fruits and vegetables as possible to score points and avoid losing all lives
